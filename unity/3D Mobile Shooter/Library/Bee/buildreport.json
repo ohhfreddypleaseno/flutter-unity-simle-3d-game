@@ -1,0 +1,22 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.660055532921E+15,"dur": 2546000, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.660055533113E+15,"dur": 616000, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.660055533849E+15,"dur": 0, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.660055533849E+15,"dur": 1273000, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 1.660055534967E+15,"dur": 155000, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
+{}
+
+],
+"meta_datetime": "08/09/2022 17:32:15",
+"meta_command_line": "/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/Unity -projectpath \"/Users/ollekyrychenko/Admin/Development/Inoxoft/unity_test/unity/3D Mobile Shooter\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-ollekyrychenko -hubSessionId 54a62150-17b0-11ed-bd7e-01913b280801 -accessToken 73FaxeXcC8pLz0umVqjUdEsGLxm2bfbD6G3lAfwoYjc007f",
+"meta_command_line_args": "/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/Unity -projectpath /Users/ollekyrychenko/Admin/Development/Inoxoft/unity_test/unity/3D Mobile Shooter -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-ollekyrychenko -hubSessionId 54a62150-17b0-11ed-bd7e-01913b280801 -accessToken 73FaxeXcC8pLz0umVqjUdEsGLxm2bfbD6G3lAfwoYjc007f",
+"meta_user_name": "ollekyrychenko",
+"meta_os_version": "Unix 21.5.0.0",
+"meta_cpu_count": "8"
+}
